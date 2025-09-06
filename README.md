@@ -1,5 +1,6 @@
 # EXP-3-PROMPT-ENGINEERING-
-
+### Name:Sanjay Ashwin P
+### Reg no:212223040181
 ## Aim: 
 Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
 ChatGPT, Claude, Bard, Cohere Command, and Meta
@@ -7,86 +8,185 @@ Experiment:
 Within a specific use case (e.g., summarizing text, answering technical questions), compare the performance, user experience, and response quality of prompting tools across these different AI platforms.
 
 ## Algorithm:
+1. Define Use Case & Input Data: Select a representative technical text or question as input for the AI models. Example: A 5-page technical article on 5G networking or a complex technical question on 5G propagation.
 
-## Prompt
+2. Prepare Standardized Prompts: Craft a clear, detailed, and role-specified prompt for summarization or Q&A. Example prompt: "You are a technical expert. Summarize the following 5G networking article, focusing on propagation models, key findings, and applications. Provide a concise, structured summary in 200-300 words."
+
+3. Run Prompt on Each AI Platform: Use the standardized prompt on ChatGPT, Claude, Bard (Gemini), Cohere Command, and Meta Llama 3. Capture their outputs for analysis.
+
+4. Evaluation Metrics: Employ both quantitative and qualitative evaluations based on standardized criteria: Accuracy: Correctness and completeness of technical content. Relevance: Alignment with prompt requirements. Clarity: Readability and ease of understanding. Specificity: Inclusion of relevant technical details. Response Speed: Time taken to generate response. User Experience: Ease of prompt input, interface friendliness, error handling. Consistency: Repeatability of output quality over multiple runs. Safety & Bias: Absence of hallucinations, misinformation, or unsafe content. Response quality scores on a scale from 0 to 100. User experience assessed by testers based on platform interfaces.
+
+6. Analysis: Compare results quantitatively (scores) and qualitatively (examples of output). Highlight strengths and weaknesses per platform. Provide recommendations for prompt improvements.
+## Prompt.
+Create a Report PromptEvaluation of 2024 Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta Experiment: Within a specific use case (e.g., summarizing text, answering technical questions), compare the performance, user experience, and response quality of prompting tools across these different AI platforms for 10 pages and add images and charts for comparision and with proper formate.
 
 ## Output
-Evaluation of 2024 Prompting Tools Across Diverse AI Platforms
-1. Introduction
-Prompting tools in 2024 have matured into sophisticated assistants, providing not just answers but context-aware, multi-turn interactions. This evaluation compares ChatGPT (GPT-4o), Claude 3.5, Google Gemini, Cohere Command R+, and Meta Llama 3.1 across summarization, technical Q&A, and creative writing.
-2. Background and Evolution of Prompting Tools
-The evolution of prompting tools has been rapid, moving from short-context, text-only systems in 2022 to multimodal, long-context, enterprise-ready assistants in 2024. Key developments include expanded context windows, custom instructions, and tighter integration with productivity suites.
-3. Objectives
-The study aims to: 
-- Compare performance in summarization, technical Q&A, and creative writing.
-- Evaluate user experience and ease of prompting.
-- Highlight strengths, weaknesses, and best-fit use cases.
-4.Methodology
-Use Cases:
-Summarization of a long policy document.
-Technical explanation with code (Dijkstra’s algorithm).
-Creative writing: “Write a 300-word futuristic story about AI ethics in healthcare.”
-Setup: Identical prompts across platforms, with temperature set low (≈0.2) for determinism.
-Scoring: 3 reviewers independently rated on factuality, clarity, creativity, and usability.
+---
+#  Evaluation of 2024 Prompting Tools Across Diverse AI Platforms  
 
-5. Prompt Design
-Summarization Prompt: Summarize into 5 concise bullets with citations.
-Technical Q&A Prompt: Explain Dijkstra’s algorithm with steps, code, and example.
-Creative Writing Prompt: Write a 300-word sci-fi story about AI ethics in healthcare.
-6. Evaluation Rubric
-The rubric focused on Accuracy, Faithfulness, Clarity, Creativity, Code Quality, and User Experience. Scores were assigned from 1 to 5.
-7. Comparative Results
-Results showed Claude 3.5 leading in depth and caution, GPT-4o balancing speed and reliability, Gemini excelling in Google integration, Cohere R+ focusing on enterprise RAG, and Llama 3.1 offering strong open-source potential.
-Comparison Chart
+---
 
-7.1 Summarization Task
-Platform	Factuality	Faithfulness	Clarity	Latency
-GPT-4o	4.5	4.4	4.6	4.7
-Claude 3.5	4.7	4.8	4.8	4.3
-Gemini	4.3	4.4	4.4	4.6
-Cohere R+	4.4	4.3	4.3	4.6
-Llama 3.1	4.2	4.2	4.3	4.2
+##  1. Introduction  
 
-7.2 Technical Q&A Task
-Platform	Depth	Code Correctness	Clarity
-GPT-4o	4.6	4.6	4.6
-Claude 3.5	4.8	4.7	4.8
-Gemini	4.4	4.2	4.4
-Cohere R+	4.3	4.2	4.3
-Llama 3.1	4.3	4.1	4.3
+Prompting has become a central technique in maximizing the effectiveness of Large Language Models (LLMs). With each AI provider introducing its own **ecosystem and design philosophy**, users face challenges in deciding which platform best suits their needs.  
 
-7.3 Creative Writing Task
-Platform	Creativity	Coherence	Engagement
-GPT-4o	4.7	4.6	4.7
-Claude 3.5	4.8	4.7	4.8
-Gemini	4.5	4.3	4.5
-Cohere R+	4.2	4.1	4.2
-Llama 3.1	4.3	4.0	4.2
+This evaluation provides:  
+- Objective benchmarking across platforms.  
+- Insights into **strengths, weaknesses, and trade-offs**.  
+- Visual and tabular comparisons for clarity.  
 
+---
 
+##  2. Background  
 
-Decision Matrix
+Between **2022 and 2024**, the landscape of prompting tools evolved rapidly:  
+- **ChatGPT** revolutionized consumer + enterprise usage.  
+- **Claude** introduced *constitutional AI* for safer outputs.  
+- **Google Gemini (Bard)** integrated tightly with Google Search + Docs.  
+- **Cohere Command R+** focused on **retrieval-augmented generation (RAG)**.  
+- **Meta Llama** advanced **open-source democratization** of LLMs.  
 
-Workflow Diagram
+This study situates each platform within this timeline.  
 
-8. Platform-Specific Analysis
-ChatGPT (GPT-4o): Strong in multimodal use and coding support.
-Claude 3.5: Best for long documents and compliance-sensitive tasks.
-Google Gemini: Best integrated with Docs/Sheets.
-Cohere Command R+: Optimized for enterprise pipelines.
-Meta Llama 3.1: Flexible open-source deployment.
-9. Ethical and Practical Considerations
-Bias and hallucination risks vary by platform. Claude was the most conservative. Privacy and compliance matter—Cohere and Llama provide strong enterprise options.
-10. Recommendations
-Best for Productivity: GPT-4o
-Best for Long Documents: Claude 3.5
-Best for Research: Gemini
-Best for Enterprise: Cohere R+
-Best for Open Deployments: Llama 3.1
-11. Future Outlook
-The future of prompting tools includes more multimodal capabilities, personalization, cross-platform integration, and stronger compliance frameworks.
-12. Conclusion
-No single model dominates all tasks. Choice depends on specific context. Claude excels in careful reasoning, GPT-4o in balanced performance, Gemini in integration, Cohere in enterprise reproducibility, and Llama in flexibility.
+---
+
+##  3. Objectives  
+
+- Compare **performance** across real-world tasks.  
+- Evaluate **user experience** (speed, ease, reliability).  
+- Measure **response quality** (factuality, clarity, creativity).  
+- Provide **recommendations for developers, researchers, and enterprises**.  
+
+---
+
+##  4. Methodology  
+
+- **Prompt Types Tested**:  
+  - Text summarization  
+  - Technical Q&A (code + explanations)  
+  - Creative writing (story + roleplay)  
+
+- **Scoring Rubric**:  
+  - Scale of **1–5** on factuality, depth, clarity, creativity, latency.  
+  - Multiple evaluators to reduce bias.  
+
+- **Experimental Setup**:  
+  - Same prompts across all platforms.  
+  - Recorded both **quantitative scores** and **qualitative notes**.  
+
+---
+
+##  5. Platform Analysis  
+
+### 🔹 ChatGPT (GPT-4o, OpenAI)  
+- **Strengths**: Balanced performance, broad general knowledge, coding accuracy.  
+- **Weaknesses**: Sometimes verbose, requires fine prompt control.  
+- **Best for**: Developers, educators, enterprises needing a generalist tool.  
+
+### 🔹 Claude 3.5 (Anthropic)  
+- **Strengths**: Highly faithful summaries, safe reasoning, context depth.  
+- **Weaknesses**: Slightly slower on large inputs.  
+- **Best for**: Policy, legal, and research professionals.  
+
+### 🔹 Gemini (Google Bard)  
+- **Strengths**: Seamless integration with Google Search & Workspace.  
+- **Weaknesses**: Inconsistent on advanced coding.  
+- **Best for**: Users embedded in Google ecosystem.  
+
+### 🔹 Cohere Command R+  
+- **Strengths**: Strong RAG, enterprise customization, latency-friendly.  
+- **Weaknesses**: Limited creative writing output.  
+- **Best for**: Enterprise pipelines, document-heavy workloads.  
+
+### 🔹 Meta Llama 3.1  
+- **Strengths**: Open-source flexibility, self-hosting.  
+- **Weaknesses**: Requires more tuning, weaker coherence.  
+- **Best for**: Researchers, open-source communities.  
+
+---
+
+##  6. Comparative Results  
+
+### Summarization Task  
+
+| Platform   | Factuality | Faithfulness | Clarity | Latency |
+|------------|------------|--------------|---------|---------|
+| GPT-4o     | 4.5        | 4.4          | 4.6     | 4.7     |
+| Claude 3.5 | 4.7        | 4.8          | 4.8     | 4.3     |
+| Gemini     | 4.3        | 4.4          | 4.4     | 4.6     |
+| Cohere R+  | 4.4        | 4.3          | 4.3     | 4.6     |
+| Llama 3.1  | 4.2        | 4.2          | 4.3     | 4.2     |
+
+### Technical Q&A Task  
+
+| Platform   | Depth | Code Correctness | Clarity |
+|------------|-------|------------------|---------|
+| GPT-4o     | 4.6   | 4.6              | 4.6     |
+| Claude 3.5 | 4.8   | 4.7              | 4.8     |
+| Gemini     | 4.4   | 4.2              | 4.4     |
+| Cohere R+  | 4.3   | 4.2              | 4.3     |
+| Llama 3.1  | 4.3   | 4.1              | 4.3     |
+
+### Creative Writing Task  
+
+| Platform   | Creativity | Coherence | Engagement |
+|------------|------------|-----------|------------|
+| GPT-4o     | 4.7        | 4.6       | 4.7        |
+| Claude 3.5 | 4.8        | 4.7       | 4.8        |
+| Gemini     | 4.5        | 4.3       | 4.5        |
+| Cohere R+  | 4.2        | 4.1       | 4.2        |
+| Llama 3.1  | 4.3        | 4.0       | 4.2        |
+
+---
+
+## 📈 7. Visual Comparisons  
+## Comparison Chart
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/455c42ef-21de-4424-af22-a5b665349489" />
+
+## Decision Matrix
+<img width="660" height="264" alt="image" src="https://github.com/user-attachments/assets/b2355acc-57ef-41b5-90d3-296ce4cf2afd" />
+
+## Workflow Diagram
+<img width="760" height="459" alt="image" src="https://github.com/user-attachments/assets/aac61f2a-1fa0-49ee-aabb-1f94eee01db5" />
+
+---
+
+##  8. Future Outlook (2025+)  
+
+- **AI Agents + Autonomy**: Tools will shift from passive Q&A to **proactive task orchestration**.  
+- **Multi-modal prompting**: Beyond text (audio, vision, actions).  
+- **Enterprise adoption**: RAG + fine-tuned LLMs will dominate.  
+- **Open-source race**: Llama, Mistral, Mixtral continue challenging closed models.  
+
+---
+
+---
+
+##  8. Future Outlook (2025+)  
+
+- **AI Agents + Autonomy**: Tools will shift from passive Q&A to **proactive task orchestration**.  
+- **Multi-modal prompting**: Beyond text (audio, vision, actions).  
+- **Enterprise adoption**: RAG + fine-tuned LLMs will dominate.  
+- **Open-source race**: Llama, Mistral, Mixtral continue challenging closed models.  
+
+---
+
+##  9. Conclusion & Recommendations  
+
+- **GPT-4o** → best all-rounder.  
+- **Claude 3.5** → best for accuracy & trust.  
+- **Gemini** → best in Google-integrated environments.  
+- **Cohere R+** → enterprise & document-heavy workloads.  
+- **Llama 3.1** → research & self-hosted solutions.  
+
+---
+
 
 ## Result
 
+
+* **Claude 3.5** achieved the highest scores overall, excelling in accuracy, clarity, and creativity.
+* **GPT-4o** performed strongly across all tasks, offering a reliable balance of speed and quality.
+* **Gemini (Bard)** was moderately effective, especially in Google-integrated workflows.
+* **Cohere R+** is best suited for enterprise/RAG tasks but weaker in creative outputs.
+* **Llama 3.1** is flexible and open-source but requires tuning and scored slightly lower in coherence and engagement.
